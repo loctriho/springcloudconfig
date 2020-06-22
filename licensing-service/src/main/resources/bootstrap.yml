@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: licensingservice
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+  datasource:
+    initialization-mode=always
+
+encrypt:
+  key: aaa
